@@ -70,7 +70,7 @@ const App = () => (
     <Navbar />
     <div className="container" style={{ paddingTop: '80px', minHeight: '100vh' }}>
       <Routes>
-        <Route path="/MyCourseWebsite/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/exams" element={<Exams />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/about" element={<About />} />
